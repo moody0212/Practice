@@ -1,0 +1,68 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* 새로운 div 생성 시 위부터 아래로 정렬 */
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login, .signup {
+    margin-left: 10px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.search-bar,.main{
+    border: 1px solid gainsboro; /* border 스타일과 색상을 추가 */
+    border-radius: 10px;
+}
+.content{
+    border: 1px solid gainsboro; /* border 스타일과 색상을 추가 */
+    border-radius: 10px;
+}
+
+
+.date {
+    color: gray;
+    font-size: 0.9em;
+}
+.dropdown-icon {
+    font-size: 1.5em;
+    color: gray;
+    cursor: pointer;
+}
+
+.one {
+    text-align: left;
+    height: 10%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: 1px solid black; /* 밑 테두리 추가 */
+}
+.two {
+    height: 20%;
+    background-color: lightcoral;
+}
+.thr {
+    height: 60%;
+    background-color: lightgreen;
+}
+.four {
+    height: 10%;
+    background-color: lightgoldenrodyellow;
+}
+
