@@ -1,0 +1,45 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /*새로운 div생성시 위부터 아래로 정렬*/
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.login, .signup {
+    margin-left: 10px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.one {
+    text-align: left;
+    height: 10%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.two {
+    height: 20%;
+    background-color: lightcoral;
+}
+.thr {
+    height: 60%;
+    background-color: lightgreen;
+}
+.four {
+    height: 10%;
+    background-color: lightgoldenrodyellow;
+}
